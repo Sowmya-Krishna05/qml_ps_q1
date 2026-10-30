@@ -1,4 +1,0 @@
-,train_acc,test_acc
-LogisticRegression,0.925,0.875
-SVM-RBF,0.95,0.85
-"VQC (ideal, exact)",0.86875,0.925

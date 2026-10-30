@@ -1,6 +1,0 @@
-,depth,size,cx,one_qubit,swaps,edges
-Linear-5 (ref. A),44,92,24,64,6,4
-T-tree-5 (A),43,85,17,64,3,4
-Ring-5,31,82,14,64,2,5
-Heavy-hex-9 (ref. B),25,76,8,64,0,12
-Ring-core-9 (B),25,76,8,64,0,10
