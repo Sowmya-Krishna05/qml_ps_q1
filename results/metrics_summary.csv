@@ -1,0 +1,11 @@
+model / split,n,accuracy,precision_abnormal,recall_abnormal,f1_abnormal,precision_macro,recall_macro,f1_macro,TN,FP,FN,TP
+VQC (ideal) - train,6000,1.0,1.0,1.0,1.0,1.0,1.0,1.0,3616,0,0,2384
+VQC (ideal) - validation,1500,1.0,1.0,1.0,1.0,1.0,1.0,1.0,899,0,0,601
+Logistic regression (30 features) - train,6000,1.0,1.0,1.0,1.0,1.0,1.0,1.0,3616,0,0,2384
+Logistic regression (30 features) - validation,1500,1.0,1.0,1.0,1.0,1.0,1.0,1.0,899,0,0,601
+RBF-SVM (30 features) - train,6000,1.0,1.0,1.0,1.0,1.0,1.0,1.0,3616,0,0,2384
+RBF-SVM (30 features) - validation,1500,1.0,1.0,1.0,1.0,1.0,1.0,1.0,899,0,0,601
+Random forest (30 features) - train,6000,1.0,1.0,1.0,1.0,1.0,1.0,1.0,3616,0,0,2384
+Random forest (30 features) - validation,1500,1.0,1.0,1.0,1.0,1.0,1.0,1.0,899,0,0,601
+"Logistic regression (4 reduced features, same as circuit) - train",6000,1.0,1.0,1.0,1.0,1.0,1.0,1.0,3616,0,0,2384
+"Logistic regression (4 reduced features, same as circuit) - validation",1500,1.0,1.0,1.0,1.0,1.0,1.0,1.0,899,0,0,601

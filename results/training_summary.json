@@ -1,0 +1,35 @@
+{
+ "seed": 0,
+ "epochs": 20,
+ "batch": 500,
+ "lr": 0.08,
+ "optimizer": "Adam",
+ "n_circuit_params": 8,
+ "theta": [
+  3.1013,
+  -0.7232,
+  -1.4421,
+  -1.5189,
+  1.2888,
+  1.2967,
+  0.335,
+  0.721
+ ],
+ "w": 6.1901,
+ "b": 2.0799,
+ "train_seconds": 15.2,
+ "circuit_evaluations": 2040000,
+ "logical_circuit": {
+  "qubits": 4,
+  "depth": 7,
+  "two_qubit_gates": 4,
+  "one_qubit_gates": 12,
+  "trainable_gates": 8
+ },
+ "test_n": 1500,
+ "test_pred_normal": 885,
+ "test_pred_arrhythmia": 615,
+ "test_share_p_above_0_95_or_below_0_05": 0.892,
+ "test_min_abs_logit": 0.952,
+ "test_predictions_identical_to_saved_file": true
+}
